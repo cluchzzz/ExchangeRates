@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.screens.start
+package com.OxGomer.exchangerates.presentations.start
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.OxGomer.exchangerates.R
-import com.OxGomer.exchangerates.model.rates.RateItem
-import com.OxGomer.exchangerates.model.rates.Rates
+import com.OxGomer.exchangerates.data.remote.models.rates.RateItem
+import com.OxGomer.exchangerates.data.remote.models.rates.Rates
 
 class StartAdapter:RecyclerView.Adapter<StartAdapter.StartViewHolder>() {
 

@@ -1,10 +1,10 @@
-package com.OxGomer.exchangerates.screens.start
+package com.OxGomer.exchangerates.presentations.start
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.OxGomer.exchangerates.data.repository.Repository
-import com.OxGomer.exchangerates.model.rates.Rates
+import com.OxGomer.exchangerates.data.remote.Repository
+import com.OxGomer.exchangerates.data.remote.models.rates.Rates
 import kotlinx.coroutines.launch
 import retrofit2.Response
 

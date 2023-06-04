@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.screens.start
+package com.OxGomer.exchangerates.presentations.start
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

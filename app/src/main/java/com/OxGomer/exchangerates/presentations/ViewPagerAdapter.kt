@@ -1,12 +1,10 @@
-package com.OxGomer.exchangerates
+package com.OxGomer.exchangerates.presentations
 
-import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.OxGomer.exchangerates.databinding.ActivityMainBinding
-import com.OxGomer.exchangerates.screens.second.SecondFragment
-import com.OxGomer.exchangerates.screens.start.StartFragment
+import com.OxGomer.exchangerates.presentations.second.SecondFragment
+import com.OxGomer.exchangerates.presentations.start.StartFragment
 
 class ViewPagerAdapter(fragmentActivity: FragmentActivity): FragmentStateAdapter(fragmentActivity) {
     override fun getItemCount(): Int {

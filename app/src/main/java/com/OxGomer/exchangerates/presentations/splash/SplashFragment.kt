@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.screens.splash
+package com.OxGomer.exchangerates.presentations.splash
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

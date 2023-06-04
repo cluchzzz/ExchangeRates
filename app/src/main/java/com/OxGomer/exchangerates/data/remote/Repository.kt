@@ -1,8 +1,8 @@
-package com.OxGomer.exchangerates.data.repository
+package com.OxGomer.exchangerates.data.remote
 
-import com.OxGomer.exchangerates.data.api.RetrofitInstanse
-import com.OxGomer.exchangerates.model.rates.Rates
-import com.OxGomer.exchangerates.model.reserve.Reserve
+import com.OxGomer.exchangerates.data.remote.api.RetrofitInstanse
+import com.OxGomer.exchangerates.data.remote.models.rates.Rates
+import com.OxGomer.exchangerates.data.remote.models.reserve.Reserve
 import retrofit2.Response
 
 class Repository {

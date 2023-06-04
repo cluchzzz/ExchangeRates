@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.screens.root
+package com.OxGomer.exchangerates.presentations.root
 
 import android.content.Context
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import com.OxGomer.exchangerates.R
-import com.OxGomer.exchangerates.ViewPagerAdapter
+import com.OxGomer.exchangerates.presentations.ViewPagerAdapter
 import com.OxGomer.exchangerates.databinding.FragmentRootBinding
 import com.google.android.material.tabs.TabLayoutMediator
 

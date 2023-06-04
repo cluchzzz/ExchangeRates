@@ -6,12 +6,12 @@
     app:startDestination="@id/splashFragment">
     <fragment
         android:id="@+id/rootFragment"
-        android:name="com.OxGomer.exchangerates.screens.root.RootFragment"
+        android:name="com.OxGomer.exchangerates.presentations.root.RootFragment"
         android:label="fragment_root"
         tools:layout="@layout/fragment_root" />
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.OxGomer.exchangerates.screens.splash.SplashFragment"
+        android:name="com.OxGomer.exchangerates.presentations.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -20,12 +20,12 @@
     </fragment>
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.OxGomer.exchangerates.screens.start.StartFragment"
+        android:name="com.OxGomer.exchangerates.presentations.start.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" />
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.OxGomer.exchangerates.screens.second.SecondFragment"
+        android:name="com.OxGomer.exchangerates.presentations.second.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
 </navigation>

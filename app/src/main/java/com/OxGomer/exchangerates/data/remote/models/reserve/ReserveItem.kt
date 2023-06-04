@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.model.reserve
+package com.OxGomer.exchangerates.data.remote.models.reserve
 
 data class ReserveItem(
     val dt: String,

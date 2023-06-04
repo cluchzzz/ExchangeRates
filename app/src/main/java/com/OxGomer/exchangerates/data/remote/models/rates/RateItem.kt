@@ -1,4 +1,4 @@
-package com.OxGomer.exchangerates.model.rates
+package com.OxGomer.exchangerates.data.remote.models.rates
 
 data class RateItem(
     val cc: String,
